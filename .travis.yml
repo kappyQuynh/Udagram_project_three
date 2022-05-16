@@ -40,4 +40,4 @@ after_success:
   - docker push quynhquynh2310/udagram-api-feed:v3
   - docker push quynhquynh2310/udagram-api-user:v3
   - docker push quynhquynh2310/udagram-frontend:v4
-  - docker push quynhquynh2310/reverseproxy:v3
+  - docker push quynhquynh2310/udagram-reverseproxy:v3
