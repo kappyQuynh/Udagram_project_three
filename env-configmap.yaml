@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: dev-project-993938034475
-  AWS_PROFILE: testuser
-  AWS_REGION: us-east-1
-  POSTGRES_DB: udagram-project-three
-  POSTGRES_HOST: udagram-project-three.c8bithhaxyli.us-east-1.rds.amazonaws.com
-  JWT_SECRET: testing
+  AWS_BUCKET: $AWS_BUCKET
+  AWS_PROFILE: $AWS_PROFILE
+  AWS_REGION: $AWS_REGION
+  POSTGRES_DB: $POSTGRES_DB
+  POSTGRES_HOST: $POSTGRES_HOST
+  JWT_SECRET: $JWT_SECRET
 metadata:
   name: env-config
